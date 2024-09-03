@@ -1,0 +1,15 @@
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\bin\Debug\net8.0\textetion-.exe
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\bin\Debug\net8.0\textetion-.deps.json
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\bin\Debug\net8.0\textetion-.runtimeconfig.json
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\bin\Debug\net8.0\textetion-.dll
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\bin\Debug\net8.0\textetion-.pdb
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.AssemblyInfoInputs.cache
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.AssemblyInfo.cs
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.csproj.CoreCompileInputs.cache
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.sourcelink.json
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.dll
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\refint\textetion-.dll
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.pdb
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.genruntimeconfig.cache
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\ref\textetion-.dll
