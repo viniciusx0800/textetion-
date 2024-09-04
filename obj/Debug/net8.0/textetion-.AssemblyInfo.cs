@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("textetion-")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ede87555c90db6660c14223b2a5a5bbfebd0395")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ca2368119d34c5f928e25ab9beea224791d00f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("textetion-")]
 [assembly: System.Reflection.AssemblyTitleAttribute("textetion-")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
