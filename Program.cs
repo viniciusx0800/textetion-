@@ -1,12 +1,12 @@
 ﻿using textetion_.models;
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "fred buta";
-p1.SobreNome = "da Silva";
+Pessoa p1 = new Pessoa(nome:"Leonardo", sobreNome:"Bau");
+// p1.Nome = "fred buta";
+// p1.SobreNome = "da Silva";
 
-Pessoa p2 = new Pessoa();
-p2.Nome = "adelio";
-p2.SobreNome = "roberto";
+Pessoa p2 = new Pessoa(nome:"adelio", sobreNome:"roberto");
+// p2.Nome = "adelio";
+// p2.SobreNome = "roberto";
 
 
 Curso cursoDeIngles = new Curso();
