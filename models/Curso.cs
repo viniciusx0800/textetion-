@@ -20,5 +20,21 @@ namespace textetion_.models
             int quantidade = Alunos.Count;
             return quantidade;
         }
+
+        public bool RemoverAluno(Pessoa aluno)
+        {
+            Alunos.Remove(aluno);
+            return Alunos.Remove(aluno);
+        }
+
+        public void ListarAlunos()
+        {
+            System.Console.WriteLine($"Alunos do curso de:{Nome}");
+            foreach(Pessoa aluno in Alunos)
+            {
+                System.Console.WriteLine(aluno.NomeCompleto);
+            }
+            
+        }
     }
 }
