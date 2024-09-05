@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -30,10 +31,16 @@ namespace textetion_.models
         public void ListarAlunos()
         {
             System.Console.WriteLine($"Alunos do curso de:{Nome}");
-            foreach(Pessoa aluno in Alunos)
+            for(int count = 0; count < Alunos.Count; count++)
             {
-                System.Console.WriteLine(aluno.NomeCompleto);
+                // string texto = "N° " + count + " - " + Alunos[count].NomeCompleto;
+                string texto = $"N°  {count} - {Alunos[count].NomeCompleto}" ; 
+                System.Console.WriteLine(texto);
             }
+            // foreach(Pessoa aluno in Alunos)
+            // {
+            //     System.Console.WriteLine(aluno.NomeCompleto);
+            // }
             
         }
     }
