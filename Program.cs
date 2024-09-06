@@ -1,31 +1,76 @@
-﻿using System.Globalization;
+﻿using System.Data;
+using System.Globalization;
 using textetion_.models;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string dataString = "2024-12-06 14:00";
+
+// bool sucesso =  DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", 
+// CultureInfo.InvariantCulture, DateTimeStyles.None, 
+// out DateTime data);
+
+// DateTime data = DateTime.Parse(dataString);
+
+// System.Console.WriteLine(data);
+
+
+// DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date);
+
+// if(sucesso)
+// {
+//     System.Console.WriteLine($"Converção com sucesso! Data: {data}");
+// }
+// else{
+//     System.Console.WriteLine($"{dataString} não é uma data válida");
+// }
+// System.Console.WriteLine(data);
+
+
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 // using System.Globalization;
 
- CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
-decimal valorMonetario = 1582.40M;
+// decimal valorMonetario = 1582.40M;
 
-System.Console.WriteLine($"{valorMonetario:C}");
+// System.Console.WriteLine($"{valorMonetario:C}");
 
 // System.Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
-System.Console.WriteLine(valorMonetario.ToString("C4"));
-                                                //   N2 
+// System.Console.WriteLine(valorMonetario.ToString("C4"));
+//                                                 //   N2 
+// double porcentagem = .3422;
+
+// System.Console.WriteLine(porcentagem.ToString("P"));
+
+// int numero = 123456;
+// System.Console.WriteLine(numero.ToString("##-##-##"));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
