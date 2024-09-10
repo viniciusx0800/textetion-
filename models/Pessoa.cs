@@ -16,6 +16,13 @@ namespace textetion_.models
           Nome = nome;
           SobreNome = sobreNome;
         }
+
+        public void Deconstruct(out string nome, out string sobreNome)
+        {
+          nome = Nome;
+          sobreNome = SobreNome;
+        }
+
         private string _nome;
         private int _idade;
         public string Nome 
