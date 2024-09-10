@@ -2,11 +2,111 @@
 using System.Globalization;
 using textetion_.models;
 
+int numero = 20;
+bool ehpar = false;
+
+// IF ternário
+
+ehpar  = numero % 2 == 0;
+
+System.Console.WriteLine($"O número {numero} é  " + (ehpar ? "par"  : "ímpar" ));
 
 
 
 
 
+
+
+
+
+
+// if (numero % 2 == 0)
+// {
+//     System.Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     System.Console.WriteLine($"O número {numero} é impar");
+// }
+
+
+
+
+
+// Pessoa p1 = new Pessoa("jhenifer", "Camile");
+
+// (string nome, string sobreNome) = p1;
+
+// System.Console.WriteLine($"{nome} {sobreNome}");
+
+
+
+
+
+
+// leiaArquivo arquivo = new leiaArquivo();
+
+// var (Sucesso, linhasArquivo, QuantidadeLinhas) = arquivo.LerArquivo("Arquivo/arquivoLeitura.txt");
+
+// if (Sucesso)
+// {
+//     System.Console.WriteLine("Quantidade de linhas do arquivo;" + QuantidadeLinhas);
+//     foreach(string linha in linhasArquivo)
+//     {
+//         System.Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     System.Console.WriteLine("Não foi possivel ler o arquivo");
+// }
+
+
+
+
+
+
+
+
+
+
+
+// (int, string, string, decimal) tupla = (17, "lara", "hevely", 1.65M);
+// ValueTuple<int, string, string, decimal> outroExemplotuple = (1, "eu", "TU",1.58M);
+// var outroExemplotuplaCreate = Tuple.Create(1, "Leonardo", "caio", 1.56M);
+ 
+
+
+
+ 
+// System.Console.WriteLine($"Id: {tupla.Item1}");
+// System.Console.WriteLine($"Nome: {tupla.Item2}");
+// System.Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// System.Console.WriteLine($"Altura: {tupla.Item4}");
+
+
+
+
+
+
+
+
+
+
+// try
+// {
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+//     foreach (string linha in linhas)
+//     {
+//     System.Console.WriteLine(linha);
+//     }
+// } catch(Exception ex)
+// {
+//     System.Console.WriteLine($"Ocorreu uma exeção genérica. {ex.Message}");
+// }
+
+// System.Console.WriteLine("chegou ate aqui");
 
 
 
