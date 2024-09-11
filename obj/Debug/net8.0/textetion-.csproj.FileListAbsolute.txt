@@ -13,3 +13,6 @@ C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\refint\tex
 C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.pdb
 C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.genruntimeconfig.cache
 C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\ref\textetion-.dll
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.csproj.AssemblyReference.cache
+C:\Users\marcos.oliveira\Documents\GitHub\textetion-\obj\Debug\net8.0\textetion-.csproj.Up2Date
