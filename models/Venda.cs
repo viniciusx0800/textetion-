@@ -7,11 +7,11 @@ namespace textetion_.models
 {
     public class Venda
     {
-        public Venda(int Id, string Produto, decimal Preco)
+        public Venda(int id, string produto, decimal preco)
         {
-            Id = Id;
-            Produto = Produto;
-            Preco = Preco;
+            Id = id;
+            Produto = produto;
+            Preco = preco;
         }
         public int Id { get; set; }
         public string  Produto { get; set; }
