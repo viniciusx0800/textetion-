@@ -1,19 +1,49 @@
 ﻿using System.Data;
 using System.Globalization;
 using textetion_.models;
+using Newtonsoft.Json;
 
-int numero = 20;
-bool ehpar = false;
+DateTime dataAtual = DateTime.Now;
 
-// IF ternário
+List<Venda> listaVendas = new List<Venda>();
 
-ehpar  = numero % 2 == 0;
+Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Licença de software", 110.00M, dataAtual);
 
-System.Console.WriteLine($"O número {numero} é  " + (ehpar ? "par"  : "ímpar" ));
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+File.WriteAllText("Arquivo/Vendas.json", serializado);
+
+System.Console.WriteLine(serializado);
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 20;
+// bool ehpar = false;
+
+// // IF ternário
+
+// ehpar  = numero % 2 == 0;
+
+// System.Console.WriteLine($"O número {numero} é  " + (ehpar ? "par"  : "ímpar" ));
 
 
 
